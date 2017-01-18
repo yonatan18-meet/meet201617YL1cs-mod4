@@ -1,5 +1,5 @@
 #FIX THE LINE BELOW
-class xyz : #<-----Replace xyz-make a new class, MyStr, that inherits from str
+class MyStr(str): #<-----Replace xyz-make a new class, MyStr, that inherits from str
     """
     Build a subclass of str with some new, fun methods.
     """
@@ -16,6 +16,10 @@ class xyz : #<-----Replace xyz-make a new class, MyStr, that inherits from str
         return self+'!'*num
 
     def replace(self, take_out, use_this):
+        temp=self.lower()
+        take_out=take_out.lower()
+        use_this=use_this.lower()
+        return(temp.replace(take_out, use_this))
         """
         Override the replace method of string.
         The new replace method is case-insensitive;

@@ -2,7 +2,7 @@
 from my_str import MyStr
 
 #Make a new MyStr instance
-my_string=MyStr('Hello world')
+my_string=MyStr('Hello World')
 
 #Print the original string
 print(my_string)
