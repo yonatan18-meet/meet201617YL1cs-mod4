@@ -8,7 +8,4 @@ class Square(Rectangle):
     def set_length(self,length):
         super().set_length(length)
         super().set_height(length)
-'''
-    def set_height(self,height):
-        super().__init__(length,length)
-        set_height'''
+
